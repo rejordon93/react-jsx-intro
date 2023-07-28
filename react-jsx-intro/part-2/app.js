@@ -1,27 +1,11 @@
 function App() {
   return (
     <div>
-      <Tweets username="Ethan1" name="Ethan" data="2023-07-25" />
-      {/* You can pass the tweetMessages array directly as a prop */}
-      <Tweets
-        username="User1"
-        name="User"
-        data="2023-07-26"
-        tweetMessages={tweetMessages}
-      />
-      <Tweets
-        username="User2"
-        name="User"
-        data="2023-07-27"
-        tweetMessages={tweetMessages}
-      />
-      <Tweets
-        username="User3"
-        name="User"
-        data="2023-07-28"
-        tweetMessages={tweetMessages}
-      />
+      <Tweets name="Ethan" username="Ethan932" data="07-28-2023" />
+      <Tweets name="John" username="zzztiJohn" data="12-8-2015" />
+      <Tweets name="Smith" username="Smith1" data="04-2-2022" />
     </div>
   );
 }
+
 ReactDOM.render(<App />, document.getElementById("root"));
