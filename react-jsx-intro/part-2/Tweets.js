@@ -1,20 +1,12 @@
 const Tweets = (props) => {
-  const tweetMessages = [
-    "Words that have lost all meaning",
-    "Be yourself; everyone else is already taken",
-    "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe",
-  ];
+  // Sample data
 
   return (
     <div>
+      <h1>Welcome to Twitter Clone</h1>
       <p>
-        My name is {props.name}, username is {props.username}, and the data is{" "}
-        {props.date}.
+        Name: {props.name} Username: {props.username} Data: {props.data}
       </p>
-      <p>Tweets:</p>
-      {tweetMessages.map((tweet, index) => (
-        <p key={index}>{tweet}</p>
-      ))}
     </div>
   );
 };
